@@ -1,6 +1,6 @@
 FROM python:2.7-alpine
-MAINTAINER Sam Gabrail
+MAINTAINER Cloudyuga
 RUN mkdir /app
 WORKDIR /app
 COPY . .
-CMD ["python", "-u", "jenkinsCool.py"]
+CMD ["python", "-u", "cloudyuga.py"]
